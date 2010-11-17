@@ -2,9 +2,9 @@
 
 MonoQLE is a Queue Server, written in C#, intended to be a fast and reliable backend for the messaging. 
 
-Previousyly at [http://sourceforge.net/projects/monoqle/].
+Previousyly at [sourceforge](http://sourceforge.net/projects/monoqle/).
 
-Licensing change from GPL to BSD (Nov/2010).
+Licensing change from __GPL__ to __BSD__ (Nov/2010).
 
 ## License: BSD
 
