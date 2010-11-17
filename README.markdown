@@ -1,7 +1,6 @@
-# MonoQLE - Mono Queue server Lithe Engine
+# MonoQLE - Managed Queue server Lithe Engine
 
-MonoQLE is a Queue Server, written in C#, intended to be a fast and reliable backend for the System.Messaging namespace's implementation in Project Mono. 
-A JMS provider and/or Indigo integration are also in the plans.
+MonoQLE is a Queue Server, written in C#, intended to be a fast and reliable backend for the messaging. 
 
 Previousyly at http://sourceforge.net/projects/monoqle/.
 Licensing change from GPL to BSD (Nov/2010).
