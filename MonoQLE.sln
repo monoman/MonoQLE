@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoQLE.Admin", "MonoQLE.Ad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoQLE.Server", "MonoQLE.Server\MonoQLE.Server.csproj", "{574906C3-AC5D-4422-A676-7A5EFE01E2BE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{E0E17F31-B53F-4076-8521-88A33DB9FB64}"
+	ProjectSection(SolutionItems) = preProject
+		draft-tegen-smqp-09.txt = draft-tegen-smqp-09.txt
+		README.markdown = README.markdown
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
