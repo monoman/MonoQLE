@@ -38,6 +38,7 @@ namespace MonoQLE.Server
 	{
 		static void Main(string[] args)
 		{
+			Console.WriteLine("MonoQLE.Server Starting...");
 		}
 	}
 }
