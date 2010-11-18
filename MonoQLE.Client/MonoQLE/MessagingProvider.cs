@@ -28,13 +28,53 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
 using System;
+//using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Sockets;
 using System.Text;
+using System.Threading;
+using Mono.Messaging;
 
-namespace MonoQLE.Client
+namespace MonoQLE
 {
-	class QueueProvider
+	public class MessagingProvider : IMessagingProvider
 	{
+
+		public bool Exists (QueueReference qRef)
+		{
+			throw new NotImplementedException ();
+		}
+
+		public IMessageQueue CreateMessageQueue (QueueReference qRef, bool transactional)
+		{
+			throw new NotImplementedException ();
+		}
+
+		public IMessageQueue GetMessageQueue (QueueReference qRef)
+		{
+			throw new NotImplementedException ();
+		}
+
+		public IMessage CreateMessage ()
+		{
+			return new MessageBase ();
+		}
+
+		public IMessageQueueTransaction CreateMessageQueueTransaction ()
+		{
+			return new MessageQueueTransaction ();
+		}
+
+		public void DeleteQueue (QueueReference qRef)
+		{
+			throw new NotImplementedException ();
+		}
+
+		public IMessageQueue[] GetPublicQueues ()
+		{
+			throw new NotImplementedException ();
+		}
 	}
 }
